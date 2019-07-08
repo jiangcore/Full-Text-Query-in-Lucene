@@ -24,9 +24,9 @@ d.	(optional) Query expansion for child concepts: include up to 30 direct childr
 e.	User should be able to control if to use query expansion C or D in the final query condition.
 
 
-##  wrote a IndexFromDB.py to make the index files by querying from Postgresql database. Since the database is big as 54000 records of “Discharge Summary”, I just query the top 10000 records to test the codes in order to easily hand in the results files. This code works well.
+###  wrote a IndexFromDB.py to make the index files by querying from Postgresql database. Since the database is big as 54000 records of “Discharge Summary”, I just query the top 10000 records to test the codes in order to easily hand in the results files. 
 
-## The following query Conditions work in  the search engine:
+### The following query Conditions work in  the search engine:
 1.	Car crash in note text
 2.	Car crash in note text and hospital_expire_flag=1 for the associated hospital admission
 3.	162.9 in ICD codes.
